@@ -134,6 +134,9 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
 
+# Exclude serif fonts for saving system.img size.
+EXCLUDE_SERIF_FONTS := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
 
